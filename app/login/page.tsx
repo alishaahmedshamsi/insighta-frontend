@@ -18,7 +18,7 @@ export default function Login() {
 		mutationFn: onLogin,
 
 		// onSuccess: Handle success if needed,
-		// onError: Handle error if needed,
+		// onError: Handle error if needed,...
 
 		onError: (error) => {
 			console.log(error.message);
