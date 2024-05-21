@@ -18,8 +18,8 @@ export default function Login() {
 		mutationFn: onLogin,
 
 		// onSuccess: Handle success if needed,
-		// onError: Handle error if needed,
-		// i wrote this line
+		// onError: Handle error if needed,...
+
 		onError: (error) => {
 			console.log(error.message);
 			setTimeout(() => {
