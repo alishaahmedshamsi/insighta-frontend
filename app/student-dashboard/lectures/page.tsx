@@ -14,6 +14,7 @@ const userDetails = {
 	section: "B",
 };
 
+//All-lectures
 const allLectures = [
 	{
 		subject: "Science",
